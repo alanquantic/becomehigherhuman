@@ -38,6 +38,15 @@ const team = [
 
 const courses = [
   {
+    id: "punto-de-quiebre",
+    title: "Masterclass Punto de quiebre",
+    text: "Lidera tu próximo nivel. Para almas líderes y emprendedoras. 13 de octubre de 2026 · 09:00 h, México.",
+    image: "course-punto-de-quiebre.png",
+    href: "https://learning.becomehigherhuman.com/products/courses/punto-de-quiebre-oct",
+    alineacionIImg: "Derecha",
+    background: "color-white",
+  },
+  {
     title: "Curso Planeado mi 2026",
     text: "Estrategias para mejorar, ordenar tus prioridades y alcanzar tus metas en este 2026.",
     image: "course-2026.jpeg",
@@ -395,7 +404,7 @@ function Courses() {
       {courses.map((course) => (
         <section
           className={`section courses-section ${course.background}`}
-          id={"servicios" + course.title.replace(/\s+/g, "")}
+          id={course.id || "servicios" + course.title.replace(/\s+/g, "")}
           key={course.title}
         >
           <div className="section-heading centered"></div>
