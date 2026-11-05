@@ -38,11 +38,11 @@ const team = [
 
 const courses = [
   {
-    id: "punto-de-quiebre",
-    title: "Masterclass Punto de quiebre",
-    text: "Lidera tu próximo nivel. Para almas líderes y emprendedoras. 13 de octubre de 2026 · 09:00 h, México.",
-    image: "course-punto-de-quiebre.png",
-    href: "https://learning.becomehigherhuman.com/products/courses/punto-de-quiebre-oct",
+    id: "rompe-tu-guion",
+    title: "Rompe tu Guion",
+    text: "Un paquete de 3 clases para reescribir tu historia: Ya no tengo edad… ¿y si sí?, El síndrome de la buena persona y Punto de quiebre. Costo del paquete: $850.",
+    image: "course-rompe-tu-guion.jpg",
+    href: "https://learning.becomehigherhuman.com/bundles/rompe-tu-guion",
     alineacionIImg: "Derecha",
     background: "color-white",
   },
